@@ -1,5 +1,5 @@
 // selectors
-// selectors
+
 // google data
 const clicks = document.querySelector(".clicks");
 const date = document.querySelector(".date");
@@ -43,7 +43,7 @@ const change = (data) => {
   data.appendChild(increment);
 };
 
-async function runm() {
+async function fetchData() {
   const data = await fetchApi("data.json");
   console.log(data.results);
   data.results.forEach((u) => {
@@ -77,18 +77,16 @@ async function runm() {
       change(clickdata);
     }
     clicksValue = u.google.clicks;
-    // facebook
+
     if (fclicksValue != 0 && u.facebook.clicks > fclicksValue) {
       change(fclickdata);
     }
     fclicksValue = u.facebook.clicks;
-    // ---------conversationDAta
     if (conversationValue != 0 && u.google.conversation > conversationValue) {
       change(conversationdata);
     }
 
     conversationValue = u.google.conversation;
-    // facebok
     if (
       fconversationValue != 0 &&
       u.facebook.conversation > fconversationValue
@@ -97,30 +95,24 @@ async function runm() {
     }
 
     fconversationValue = u.facebook.conversation;
-    // ---------costDAta
 
     if (costValue != 0 && u.google.cost > costValue) {
       change(costdata);
     }
     costValue = u.google.cost;
-    // facebook
     if (fcostValue != 0 && u.facebook.cost > fcostValue) {
       change(fcostdata);
     }
     fcostValue = u.facebook.cost;
-    // ---------roasDAta
 
     if (roasValue != 0 && u.google.ROAS > roasValue) {
       change(roasdata);
     }
     roasValue = u.google.ROAS;
-    // facebook
     if (froasValue != 0 && u.facebook.ROAS > froasValue) {
       change(froasdata);
     }
     froasValue = u.facebook.ROAS;
-
-    // inserting data
     date.insertBefore(datedata, date.childNodes[2]);
     clicks.insertBefore(clickdata, clicks.childNodes[2]);
     conversation.insertBefore(conversationdata, conversation.childNodes[2]);
@@ -134,4 +126,4 @@ async function runm() {
   });
 }
 
-runm();
+fetchData();
