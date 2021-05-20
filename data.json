@@ -1,0 +1,109 @@
+{
+  "results": [
+    {
+      "date": "1-may-21",
+      "google": {
+        "clicks": 100,
+        "conversation": 100,
+        "cost": 1.5,
+        "ROAS": 2
+      },
+      "facebook": {
+        "clicks": 100,
+        "conversation": 100,
+        "cost": 1.5,
+        "ROAS": 2
+      }
+    },
+    {
+      "date": "2-may-21",
+      "google": {
+        "clicks": 110,
+        "conversation": 100,
+        "cost": 1.5,
+        "ROAS": 5
+      },
+      "facebook": {
+        "clicks": 110,
+        "conversation": 100,
+        "cost": 1.25,
+        "ROAS": 4
+      }
+    },
+    {
+      "date": "3-may-21",
+      "google": {
+        "clicks": 110,
+        "conversation": 100,
+        "cost": 1.25,
+        "ROAS": 2
+      },
+      "facebook": {
+        "clicks": 110,
+        "conversation": 100,
+        "cost": 1,
+        "ROAS": 2
+      }
+    },
+    {
+      "date": "4-may-21",
+      "google": {
+        "clicks": 200,
+        "conversation": 200,
+        "cost": 1.5,
+        "ROAS": 2
+      },
+      "facebook": {
+        "clicks": 200,
+        "conversation": 200,
+        "cost": 1.5,
+        "ROAS": 2
+      }
+    },
+    {
+      "date": "5-may-21",
+      "google": {
+        "clicks": 100,
+        "conversation": 220,
+        "cost": 1.5,
+        "ROAS": 7
+      },
+      "facebook": {
+        "clicks": 100,
+        "conversation": 220,
+        "cost": 1.5,
+        "ROAS": 2
+      }
+    },
+    {
+      "date": "6-may-21",
+      "google": {
+        "clicks": 100,
+        "conversation": 100,
+        "cost": 1.5,
+        "ROAS": 5
+      },
+      "facebook": {
+        "clicks": 100,
+        "conversation": 100,
+        "cost": 1.5,
+        "ROAS": 2
+      }
+    },
+    {
+      "date": "7-may-21",
+      "google": {
+        "clicks": 110,
+        "conversation": 100,
+        "cost": 1.25,
+        "ROAS": 2
+      },
+      "facebook": {
+        "clicks": 110,
+        "conversation": 100,
+        "cost": 1.25,
+        "ROAS": 5
+      }
+    }
+  ]
+}
